@@ -1,0 +1,6 @@
+FROM debian 
+RUN apt-get update && apt-get install -y sqlmap curl unzip\
+ && curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash \
+ && mkdir -p /usr/share/seclists/Discovery/Web-Content/ \
+ && curl https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/raft-medium-directories.txt \
+ -o /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt

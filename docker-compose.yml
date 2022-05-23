@@ -1,0 +1,43 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: principal
+
+  db_catch:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: principal
+
+  web:
+    image: honeypot
+    depends_on:
+      - db
+      - db_catch
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./www:/var/www/html/
+
+  generator:
+    image: honeypot_test
+    depends_on:
+      - db
+      - db_catch
+
+  attack:
+    image: attack
+    restart: always
+    tty: true
+    depends_on:
+      - web
