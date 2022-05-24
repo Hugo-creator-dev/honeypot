@@ -1,5 +1,5 @@
 # HoneyPOT from winnie
-- Isen med thales student project  
+- Isen Yncrea Méditerrannée Thales student project  
 - Project duraction: 5 days 
 - Project programming: 1day
 
