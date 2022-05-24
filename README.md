@@ -55,4 +55,4 @@ et 2 bases de donnée, l'une fake et l'autre non sous postgres
 - [@Julie-Pages](https://github.com/Julie-Pages)
 - [@Blanc-Numa](https://github.com/Blanc-Numa)
 - [@Hivanhoe438](https://github.com/Hivanhoe438)
-- [@](https://github.com/)
+- [@lisaisen](https://github.com/lisaisen)
