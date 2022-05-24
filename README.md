@@ -51,3 +51,8 @@ et 2 bases de donnée, l'une fake et l'autre non sous postgres
 ## Authors
 
 - [@Hugo-creator-dev](https://github.com/Hugo-creator-dev)
+- [@Victoria-Remont](https://github.com/Victoria-Remont)
+- [@Julie-Pages](https://github.com/Julie-Pages)
+- [@Blanc-Numa](https://github.com/Blanc-Numa)
+- [@Hivanhoe438](https://github.com/Hivanhoe438)
+- [@](https://github.com/)
